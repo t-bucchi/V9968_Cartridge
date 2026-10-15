@@ -5,6 +5,194 @@
 	(uuid "c147e6fc-a3d4-45ce-8e59-e4dc8f4ba1a4")
 	(paper "A4")
 	(lib_symbols
+		(symbol "0_MSX:SG-8002DC"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "X"
+				(at -5.08 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SG-8002DC"
+				(at 1.27 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "MSX:TCO-700"
+				(at 17.78 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "3.3V TTL THT Crystal Clock Oscillator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "3.3V TTL SMD Crystal Clock Oscillator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Oscillator*SMD*Abracon*ASV*7.0x5.1mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SG-8002DC_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.762) (xy -1.016 -0.762) (xy -1.016 0.762) (xy -0.508 0.762) (xy -0.508 -0.762) (xy 0 -0.762)
+						(xy 0 0.762) (xy 0.508 0.762) (xy 0.508 -0.762) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SG-8002DC_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "Vdd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "74xx:74LS541"
 			(pin_names
 				(offset 1.016)
@@ -1830,160 +2018,6 @@
 						)
 					)
 					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "My Parts:CLOCK"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "0-My_Parts:CLOCK"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CLOCK_1_1"
-				(rectangle
-					(start -6.35 5.08)
-					(end 6.35 -5.08)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "CLOCK"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 2.54 0)
-					(length 2.54)
-					(name "En"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 2.54 180)
-					(length 2.54)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 8.89 -2.54 180)
-					(length 2.54)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4094,7 +4128,7 @@
 		)
 		(uuid "5652109a-949a-49ad-989b-12a42d19699d")
 	)
-	(text "En は、OPEN か H で CLK を出力、L で CLK が HiZ になる。"
+	(text "OE は、OPEN か H で CLK を出力、L で CLK が HiZ になる。"
 		(exclude_from_sim no)
 		(at 70.104 160.782 0)
 		(effects
@@ -4127,7 +4161,7 @@
 	)
 	(text "14.318180MHz"
 		(exclude_from_sim no)
-		(at 66.04 176.022 0)
+		(at 52.832 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4234,6 +4268,12 @@
 		(uuid "ffc9d3c7-9d6c-4a0f-b873-a2d10ccfe0cb")
 	)
 	(junction
+		(at 93.98 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07af11cd-9243-431e-94e7-a990d1d89ded")
+	)
+	(junction
 		(at 45.72 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4244,12 +4284,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28515d19-b337-42bb-baa7-829fbc485e10")
-	)
-	(junction
-		(at 77.47 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37ef6f1f-3845-4c8e-8cb0-67815dbc5a79")
 	)
 	(junction
 		(at 238.76 146.05)
@@ -4270,28 +4304,22 @@
 		(uuid "8615c22b-11e3-4106-8fe9-c34edc8c8de4")
 	)
 	(junction
+		(at 66.04 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90ed1520-113e-4eed-8e84-759a95c26027")
+	)
+	(junction
 		(at 254 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "952eec86-50c0-4ae8-9090-ee84a574ca60")
 	)
 	(junction
-		(at 57.15 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d9e32c6-6b34-4a17-8fd0-c0e75814825b")
-	)
-	(junction
 		(at 220.98 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4c8d031-c219-4e0f-9c1c-9b91ed3db070")
-	)
-	(junction
-		(at 93.98 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1a4423f-a5a6-4212-993e-7251c01f80ff")
 	)
 	(junction
 		(at 220.98 91.44)
@@ -4304,6 +4332,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0b42d2c-90bb-415d-864e-26485a5f9017")
+	)
+	(junction
+		(at 77.47 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fff14e88-96d2-4a30-8939-6181af05b002")
 	)
 	(no_connect
 		(at 81.28 114.3)
@@ -4362,10 +4396,6 @@
 		(uuid "67201cc5-ec64-4eae-9001-8407acc0351a")
 	)
 	(no_connect
-		(at 57.15 166.37)
-		(uuid "68fda63a-a57a-45e6-9406-ba5e070d685e")
-	)
-	(no_connect
 		(at 35.56 45.72)
 		(uuid "77fb26be-4d1b-4e03-8775-a92d4028537c")
 	)
@@ -4408,6 +4438,10 @@
 	(no_connect
 		(at 83.82 55.88)
 		(uuid "d7b78e6b-63cb-40b6-902d-0ac75e38f4d2")
+	)
+	(no_connect
+		(at 58.42 172.72)
+		(uuid "ea1b906c-806d-43a1-8aaf-afff0be84830")
 	)
 	(no_connect
 		(at 77.47 147.32)
@@ -4469,26 +4503,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 171.45) (xy 57.15 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0accfb88-287f-4ab5-b47a-3c0e4f37af8e")
-	)
-	(wire
-		(pts
-			(xy 100.33 166.37) (xy 93.98 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c3fdd9f-96fb-4118-99f0-785c34117e1b")
-	)
-	(wire
-		(pts
 			(xy 158.75 60.96) (xy 158.75 63.5)
 		)
 		(stroke
@@ -4519,7 +4533,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 171.45) (xy 77.47 171.45)
+			(xy 100.33 163.83) (xy 77.47 163.83)
 		)
 		(stroke
 			(width 0)
@@ -4859,7 +4873,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 171.45) (xy 77.47 176.53)
+			(xy 77.47 163.83) (xy 77.47 176.53)
 		)
 		(stroke
 			(width 0)
@@ -4979,6 +4993,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 163.83) (xy 77.47 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e620867-b6da-473c-b43e-53280c901291")
+	)
+	(wire
+		(pts
 			(xy 220.98 60.96) (xy 226.06 60.96)
 		)
 		(stroke
@@ -5026,16 +5050,6 @@
 			(type default)
 		)
 		(uuid "45eec0f9-4f30-4bd4-91e0-273c4efa67aa")
-	)
-	(wire
-		(pts
-			(xy 93.98 166.37) (xy 93.98 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4825f2bd-931b-4768-82c5-1d1ac4040aee")
 	)
 	(wire
 		(pts
@@ -5269,7 +5283,17 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 190.5) (xy 57.15 190.5)
+			(xy 66.04 190.5) (xy 77.47 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6559a1b4-7da9-4e2a-a939-3dd05ff94622")
+	)
+	(wire
+		(pts
+			(xy 49.53 190.5) (xy 66.04 190.5)
 		)
 		(stroke
 			(width 0)
@@ -5469,6 +5493,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 172.72) (xy 100.33 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77be6307-0302-47c2-9b48-a0bdc17b7b4a")
+	)
+	(wire
+		(pts
 			(xy 255.27 138.43) (xy 255.27 140.97)
 		)
 		(stroke
@@ -5596,6 +5630,16 @@
 			(type default)
 		)
 		(uuid "87505c67-ac7f-4820-b408-f9cd53789577")
+	)
+	(wire
+		(pts
+			(xy 66.04 165.1) (xy 66.04 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8921aee7-bc92-4d35-bc20-6ef5d242c923")
 	)
 	(wire
 		(pts
@@ -5749,16 +5793,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 190.5) (xy 77.47 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e9dd7f7-fbee-4dd2-a492-b539708726be")
-	)
-	(wire
-		(pts
 			(xy 219.71 45.72) (xy 226.06 45.72)
 		)
 		(stroke
@@ -5866,6 +5900,16 @@
 			(type default)
 		)
 		(uuid "b3a26960-cefa-4a84-893f-89d3bd46e059")
+	)
+	(wire
+		(pts
+			(xy 66.04 180.34) (xy 66.04 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5f57922-4a5d-421a-9927-183e79cf7cd4")
 	)
 	(wire
 		(pts
@@ -6069,16 +6113,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 171.45) (xy 74.93 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce7de238-5abb-4e1f-a81d-9aac70e4df0a")
-	)
-	(wire
-		(pts
 			(xy 81.28 134.62) (xy 77.47 134.62)
 		)
 		(stroke
@@ -6106,16 +6140,6 @@
 			(type default)
 		)
 		(uuid "d06df353-cdcc-40ca-b418-c73a7cf2dee0")
-	)
-	(wire
-		(pts
-			(xy 74.93 166.37) (xy 93.98 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2c04a1c-dbbc-4f07-bfe8-01709a4db48e")
 	)
 	(wire
 		(pts
@@ -6179,6 +6203,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 172.72) (xy 93.98 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e171b51d-9473-4ae7-8f69-5e697a9c6bfc")
+	)
+	(wire
+		(pts
 			(xy 160.02 53.34) (xy 158.75 53.34)
 		)
 		(stroke
@@ -6236,6 +6270,16 @@
 			(type default)
 		)
 		(uuid "e9bed6c7-ecd4-4e88-b19d-f38b3c052d81")
+	)
+	(wire
+		(pts
+			(xy 93.98 172.72) (xy 93.98 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec9cd01d-7cfc-4d0c-8405-575eb73c09d1")
 	)
 	(wire
 		(pts
@@ -6835,7 +6879,7 @@
 	)
 	(global_label "CLOCK"
 		(shape output)
-		(at 100.33 166.37 0)
+		(at 100.33 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6845,7 +6889,7 @@
 		)
 		(uuid "1a01c057-4f7f-4609-abd1-d199e4b330d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.4838 166.37 0)
+			(at 109.4838 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9235,7 +9279,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 100.33 171.45 0)
+		(at 100.33 163.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9245,7 +9289,7 @@
 		)
 		(uuid "c43a3368-f0fe-4d5c-939e-e92e12221e61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.8228 171.45 0)
+			(at 106.8228 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12270,113 +12314,6 @@
 		)
 	)
 	(symbol
-		(lib_id "My Parts:CLOCK")
-		(at 66.04 168.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d802f7dc-5836-4c9a-a816-135a0c4ebb3b")
-		(property "Reference" "U1"
-			(at 66.04 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 66.04 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "My Parts:CLOCK"
-			(at 66.04 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2901565"
-			(at 66.04 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" "https://jlcpcb.com/partdetail/3151378-SX3M1431818M20F30TNN/C2901565"
-			(at 66.04 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cfaf5676-8568-4ca7-9096-6ba2bda56b08")
-		)
-		(pin "4"
-			(uuid "a765d04c-1971-48c7-8e63-153147ca48a5")
-		)
-		(pin "1"
-			(uuid "11af4dab-9a33-4b91-8af3-c3a2bcbe6f94")
-		)
-		(pin "3"
-			(uuid "18ea3ad4-1071-449f-b4dd-6045ee031104")
-		)
-		(instances
-			(project "vdp_cartridge"
-				(path "/c147e6fc-a3d4-45ce-8e59-e4dc8f4ba1a4"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:BSS138")
 		(at 234.95 91.44 0)
 		(unit 1)
@@ -12514,6 +12451,92 @@
 			(project "vdp_cartridge"
 				(path "/c147e6fc-a3d4-45ce-8e59-e4dc8f4ba1a4"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_MSX:SG-8002DC")
+		(at 66.04 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e74324a9-e600-4bab-b01a-a1d47b2c7c2b")
+		(property "Reference" "X1"
+			(at 78.74 166.2998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SG-8002DC"
+			(at 78.74 168.8398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 83.82 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3.3V TTL THT Crystal Clock Oscillator"
+			(at 66.04 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "001f1051-fe97-4556-ab11-94805a05f636")
+		)
+		(pin "1"
+			(uuid "d5c2d988-e4a8-464d-b7a2-fd2c5b98f6d3")
+		)
+		(pin "5"
+			(uuid "d86a9d6c-7f9c-4243-8f8d-46a6b42a972f")
+		)
+		(pin "8"
+			(uuid "7a68eddf-3820-4c70-930e-4f168ca3e8ae")
+		)
+		(instances
+			(project "vdp_cartridge"
+				(path "/c147e6fc-a3d4-45ce-8e59-e4dc8f4ba1a4"
+					(reference "X1")
 					(unit 1)
 				)
 			)
